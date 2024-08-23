@@ -4,10 +4,7 @@
 
 namespace test {
 
-	TestMenu::TestMenu(Test*& currentTestPonter) : m_CurrentTest{currentTestPonter}
-	{
-	}
-
+	TestMenu::TestMenu(Test*& currentTestPonter) : m_CurrentTest{currentTestPonter}{}
 
 	void TestMenu::OnImGuiRender()
 	{
@@ -18,6 +15,4 @@ namespace test {
 		}
 
 	}
-
-
 }
