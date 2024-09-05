@@ -79,7 +79,6 @@ int main(void)
             ImGui_ImplGlfw_NewFrame();
             ImGui::NewFrame();
 
-
             if (currentTest) {
                 currentTest->OnUpdate(0.0f);
                 currentTest->OnRender();

@@ -6,8 +6,6 @@
 #include "glm/glm.hpp"
 #include "glm/gtc/matrix_transform.hpp"
 
-
-
 namespace test {
 	TestTexture2D::TestTexture2D() : m_TranslationA{100,100,0}, m_TranslationB{300,100,0}
  {

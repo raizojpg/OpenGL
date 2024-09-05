@@ -57,7 +57,6 @@ int Shader::GetUniformLocation(const std::string& name)
     return location;
 }
 
-
 unsigned int Shader::CompileShader(unsigned int type, const std::string& source) {
     unsigned int id = glCreateShader(type);
     const char* src = source.c_str();
@@ -79,7 +78,6 @@ unsigned int Shader::CompileShader(unsigned int type, const std::string& source)
 
     return id;
 }
-
 
 unsigned int Shader::CreateShader(const std::string& vertexShader, const std::string& fragmentShader) {
     unsigned int program = glCreateProgram();

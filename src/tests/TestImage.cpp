@@ -6,12 +6,11 @@
 #include "glm/glm.hpp"
 #include "glm/gtc/matrix_transform.hpp"
 
-
-
 namespace test {
+
     TestImage::TestImage() : m_TranslationA{ 100,100,0 }, m_TranslationB{ 300,100,0 },
         m_Red{ 0.0f }, m_Green{ 0.3f }, m_Blue{ 0.8f }, m_Increment{ 0.025f }
- {
+    {  
 
         float positions[] = {
             -0.5f, -0.5f, // SW
